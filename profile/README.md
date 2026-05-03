@@ -232,28 +232,13 @@
 |:---:|---|:---:|
 | 1 | 🔍 Analiz, User Story'ler, Wireframe | ✅ |
 | 2 | 🏗️ Altyapı kurulumu, Auth yapısı, DB şeması | ✅ |
-| 3 | 🔧 Temel CRUD işlemleri, API endpoints | ✅ |
+| 3 | 🔧 Temel CRUD işlemleri, API endpoints | 🔄 |
 | 4 | 📅 Randevu sistemi, saat hesaplama | 🔄 |
 | 5 | 🔍 Filtreleme, favori & puanlama modülleri | 🔄 |
 | 6 | 💊 Eczane modülü, test & iyileştirme | ⏳ |
 | 7 | 🎉 Final, demo & sunum | ⏳ |
 
----
 
-## 🗄️ Veritabanı Modeli
-
-```
-users ──────┐
-            ├──► appointments ◄─── doctors ◄─── clinics
-            │         │
-            ├──► favorites        ratings
-            │
-pharmacy    └──► (konum bazlı erişim)
-```
-
-**Tablolar:** `users` · `clinics` · `doctors` · `appointments` · `ratings` · `favorites` · `pharmacy`
-
----
 
 <div align="center">
 
